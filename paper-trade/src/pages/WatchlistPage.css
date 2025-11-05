@@ -1,0 +1,89 @@
+/* Background setup */
+.watchlist-container {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #05070d 0%, #0a0f1f 70%);
+  color: #e2e8f0;
+  padding: 40px;
+  overflow-x: hidden;
+}
+
+/* Card Styling */
+.watchlist-card {
+  background: linear-gradient(145deg, #0f172a, #1e293b);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.2);
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.watchlist-card:hover {
+  box-shadow: 0 0 35px rgba(59, 130, 246, 0.5);
+}
+
+/* Title */
+.watchlist-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #60a5fa;
+  text-shadow: 0 0 10px rgba(96, 165, 250, 0.6);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* Prevent table overflow */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+/* Table styling */
+.watchlist-table {
+  width: 100%;
+  background-color: #0f172a;
+  border-collapse: collapse;
+  color: #f1f5f9;
+  font-size: 1rem;
+}
+
+.watchlist-table thead th {
+  background: #1e293b;
+  color: #93c5fd;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #2563eb;
+  padding: 15px 20px;
+}
+
+/* Row styling */
+.watchlist-table tbody tr {
+  background: rgba(30, 41, 59, 0.6);
+  transition: all 0.3s ease;
+}
+/* 
+.watchlist-table tbody tr:hover {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+  transform: scale(1.01);
+} */
+
+.watchlist-table td {
+  padding: 15px 20px;
+  border-top: 1px solid rgba(59, 130, 246, 0.15);
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+/* Positive & Negative */
+.positive {
+  color: #4ade80;
+  text-shadow: 0 0 4px rgba(34, 197, 94, 0.7);
+  font-weight: 600;
+}
+
+.negative {
+  color: #f87171;
+  text-shadow: 0 0 4px rgba(248, 113, 113, 0.7);
+  font-weight: 600;
+}
